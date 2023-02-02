@@ -204,6 +204,54 @@ header{
 }
 
 
+/*     Carousel         */
+
+.main_banner .owl-nav .owl-prev{
+    position: absolute;
+    top: 47%;
+    left: 35px;
+}
+.main_banner .owl-nav .owl-next{
+  position: absolute;
+  top: 47%;
+  right: 35px;
+}
+.main_banner .owl-nav .owl-prev:after{
+  content: "\f053";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  font-size: 28px;
+  color: black;
+}
+.main_banner .owl-nav .owl-next:after {
+  content: "\f054";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  font-size: 28px;
+  color: black;
+}
+.main_banner .owl-dots{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:-30px
+}
+
+.main_banner .owl-dots .owl-dot{
+  margin: 0 34px;
+}
+.main_banner .owl-dots .owl-dot span{
+  width: 194px;
+  height: 2px;
+  display: inline-block;
+  background-color: black;
+}
+.main_banner .owl-dots .owl-dot.active span{
+  background-color: silver;
+}
+
+
+
 /*            Section Main Offers            */
 
 .main_offers {
