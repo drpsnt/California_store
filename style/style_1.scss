@@ -320,8 +320,9 @@ header:before {
     }
 
     .banner_description{
+      padding: 40px 0;
       margin-left: 56px;
-      margin-top: 145px;
+      margin-top: 105px;
      h1{
        font-family: $font_Readex;
        font-style: normal;
@@ -483,14 +484,19 @@ header:before {
   padding: 0 42px;
   margin-bottom: 72px;
 
-  p{
+  a{
     font-family: $font_Inter;
+    text-decoration: none;
     font-style: normal;
+    color: black;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     text-align: right;
-    color: #000000;
+    transition: 0.3s;
+  }
+  a:hover{
+    color:#bb5e64;
   }
   h3{
     font-family: $font_Readex;
@@ -523,14 +529,19 @@ header:before {
   flex-direction: column;
   text-align: right;
 
-  p{
+  a{
     font-family: $font_Inter;
+    text-decoration: none;
     font-style: normal;
+    color: black;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     text-align: right;
-    color: #000000;
+    transition: 0.3s;
+  }
+  a:hover{
+    color:#bb5e64;
   }
   h3{
     font-family: $font_Readex;
@@ -591,14 +602,19 @@ header:before {
   width: 100%;
   text-align: center;
 
-  p{
+  a{
     font-family: $font_Inter;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     text-align: center;
     color: #000000;
+    transition: 0.3s;
+  }
+  a:hover{
+    color:#bb5e64;
   }
   h3{
     font-family: $font_Readex;
@@ -619,14 +635,19 @@ header:before {
   text-align: center;
   margin-bottom: 42px;
 
-  p{
+  a{
     font-family: $font_Inter;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
     text-align: center;
-    color: #000000;
+    color: black;
+    transition: 0.3s;
+  }
+  a:hover{
+    color:#bb5e64;
   }
   h3{
     font-family: $font_Readex;
@@ -861,14 +882,20 @@ header:before {
 .ideas_arrow{
   display: flex;
   justify-content: center;
-  p{
+  a{
     font-family: $font_Inter;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
     text-transform: capitalize;
     color: #000000;
+
+    img{
+      position: relative;
+      top:5px;
+    }
   }
 }
 

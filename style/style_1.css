@@ -291,8 +291,9 @@ header .icon_header ul li a {
   object-fit: cover;
 }
 .main_banner .back_banner .banner_description {
+  padding: 40px 0;
   margin-left: 56px;
-  margin-top: 145px;
+  margin-top: 105px;
 }
 .main_banner .back_banner .banner_description h1 {
   font-family: "Readex Pro", sans-serif;
@@ -453,14 +454,19 @@ header .icon_header ul li a {
   padding: 0 42px;
   margin-bottom: 72px;
 }
-.laptop_description p {
+.laptop_description a {
   font-family: "Inter", sans-serif;
+  text-decoration: none;
   font-style: normal;
+  color: black;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-align: right;
-  color: #000000;
+  transition: 0.3s;
+}
+.laptop_description a:hover {
+  color: #bb5e64;
 }
 .laptop_description h3 {
   font-family: "Readex Pro", sans-serif;
@@ -492,14 +498,19 @@ header .icon_header ul li a {
   flex-direction: column;
   text-align: right;
 }
-.watch_description p {
+.watch_description a {
   font-family: "Inter", sans-serif;
+  text-decoration: none;
   font-style: normal;
+  color: black;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-align: right;
-  color: #000000;
+  transition: 0.3s;
+}
+.watch_description a:hover {
+  color: #bb5e64;
 }
 .watch_description h3 {
   font-family: "Readex Pro", sans-serif;
@@ -558,14 +569,19 @@ header .icon_header ul li a {
   width: 100%;
   text-align: center;
 }
-.phones_description p {
+.phones_description a {
   font-family: "Inter", sans-serif;
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-align: center;
   color: #000000;
+  transition: 0.3s;
+}
+.phones_description a:hover {
+  color: #bb5e64;
 }
 .phones_description h3 {
   font-family: "Readex Pro", sans-serif;
@@ -585,14 +601,19 @@ header .icon_header ul li a {
   text-align: center;
   margin-bottom: 42px;
 }
-.tablet_description p {
+.tablet_description a {
   font-family: "Inter", sans-serif;
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-align: center;
-  color: #000000;
+  color: black;
+  transition: 0.3s;
+}
+.tablet_description a:hover {
+  color: #bb5e64;
 }
 .tablet_description h3 {
   font-family: "Readex Pro", sans-serif;
@@ -799,14 +820,19 @@ header .icon_header ul li a {
   display: flex;
   justify-content: center;
 }
-.ideas_arrow p {
+.ideas_arrow a {
   font-family: "Inter", sans-serif;
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   text-transform: capitalize;
   color: #000000;
+}
+.ideas_arrow a img {
+  position: relative;
+  top: 5px;
 }
 
 /*              Main Search                       */
