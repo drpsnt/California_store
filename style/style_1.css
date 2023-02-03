@@ -1231,6 +1231,10 @@ header .icon_header ul li a {
     align-items: center;
     margin-bottom: 73px;
   }
+  .ideas_description .ideas_p p {
+    font-size: 20px;
+    line-height: 28px;
+  }
   .ideas_description .ideas_img {
     margin-right: 0;
   }
@@ -1264,6 +1268,9 @@ header .icon_header ul li a {
   }
   .main_banner .owl-dots .owl-dot span {
     width: 40px;
+  }
+  .item_best img {
+    width: 100%;
   }
   .main_banner .back_banner .banner_description {
     padding: 32px 0 20px;
