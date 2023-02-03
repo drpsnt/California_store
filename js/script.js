@@ -12,7 +12,7 @@ $(document).ready(function(){
         margin:0,
         nav:true,
         navText: [ '', ' ' ],
-        autoplay:true,
+
         autoplayTimeout: 5000,
         responsive:{
             0:{
@@ -25,3 +25,11 @@ $(document).ready(function(){
         }
     });
 });
+
+const iconUpDown =  document.querySelectorAll(".icon");
+iconUpDown.forEach(icon => {
+    icon.addEventListener("click", e => {
+        icon.classList.toggle("icon-rotate")
+        icon.parentElement.classList.toggle("open");
+    })
+})
