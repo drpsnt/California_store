@@ -1306,9 +1306,10 @@ header:before {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-
   }
-
+  .main_selled .selled_items .item_product {
+    margin-bottom: 20px;
+  }
   .ideas_description {
     display: flex;
     flex-direction: column;
