@@ -1256,6 +1256,9 @@ header .icon_header ul li a {
   }
 }
 @media (min-width: 320px) and (max-width: 550px) {
+  .main_banner .owl-nav .owl-next, .main_banner .owl-nav .owl-prev {
+    display: none;
+  }
   .main_banner .owl-dots {
     top: -10px;
   }
