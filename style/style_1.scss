@@ -179,7 +179,7 @@ header:before {
 
 
 .main_banner{
-  padding: 0 15px;
+  padding: 0 15px ;
   padding-bottom: 75px;
   .container{
     border-radius: 32px;
@@ -1343,6 +1343,9 @@ header:before {
       font-size: 13px;
       padding: 9px 30px;
     }
+  }
+  .main_selled .selled_description {
+    margin-bottom: 20px;
   }
 
 }

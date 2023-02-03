@@ -1262,6 +1262,9 @@ header .icon_header ul li a {
     font-size: 13px;
     padding: 9px 30px;
   }
+  .main_selled .selled_description {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 320px) and (max-width: 550px) {
   .main_banner .owl-nav .owl-next, .main_banner .owl-nav .owl-prev {
